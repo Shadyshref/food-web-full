@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .sidebar{
+    @apply flex items-center gap-[12px]  border-[#a9a9a9] border-[1px] border-solid border-r-0 py-[8px] px-[10px] rounded-[3px_0px_0px_3px] cursor-pointer active:bg-[#fff0ed] active:border-orange-500
+  }
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+body{
+  min-height: 100vh;
+  background-color: #fcfcfc;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  background-color: #a9a9a9;
+}

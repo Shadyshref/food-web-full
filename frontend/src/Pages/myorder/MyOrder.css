@@ -1,0 +1,240 @@
+.my-order {
+    margin: 50px 0px;
+}
+
+.my-order h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.my-order .contain {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px; 
+}
+
+.my-order-order {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 2fr 1fr;  
+  align-items: center;
+  gap: 30px;
+  font-size: 14px;
+  padding: 10px 20px;
+  color: #221f1f;
+  border: 0.5px solid rgb(224, 213, 211);
+}
+
+.my-order-order img {
+    width: 50px;
+}
+
+.my-order-order p span {
+    color: tomato;
+}
+
+.my-order-order p b {
+    font-weight: 500;
+    color: #454545;
+}
+
+.my-order-order button {
+    background-color: tomato;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.my-order-order button:hover {
+    background-color: #d74b39;
+}
+
+@media (max-width: 768px) {
+    .my-order-order {
+        grid-template-columns: 1fr;  
+        padding: 10px;  
+    }
+
+    .my-order-order img {
+        width: 40px;  
+        margin-bottom: 15px; 
+    }
+
+    .my-order-order p {
+        font-size: 13px;  
+        margin-bottom: 5px;  
+    }
+
+    .my-order-order button {
+        width: 100%;   
+        padding: 10px 0;  
+        font-size: 1.1rem;  
+        margin-top: 10px;  
+    }
+
+    .contain {
+        margin-top: 20px; /
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////
+.my-order {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 0 auto;  
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+}
+
+.my-order h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+.contin {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    padding: 0 10px;
+    
+}
+
+/* تنسيق كل طلب داخل مستطيل */
+.my-order-orders {
+    background-color: #cec5c5;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;  /* جعل العناصر داخل الطلب بجانب بعضها */
+    align-items: center;  /* محاذاة العناصر بشكل عمودي */
+    justify-content: space-between;  /* توزيع العناصر بشكل متساوي */
+    width: 100%;  /* عرض المستطيل بالكامل */
+    box-sizing: border-box;
+}
+
+.my-order-orders img {
+    width: 50px;  /* عرض الصورة */
+    height: 50px;  /* ارتفاع الصورة */
+    object-fit: contain;  /* التأكد من أن الصورة تتناسب داخل المساحة */
+    margin-right: 15px;  /* مسافة بين الصورة وبقية العناصر */
+}
+
+/* تنسيق النصوص داخل كل طلب */
+.my-order-orders p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;  /* إزالة التباعد الافتراضي بين الفقرات */
+    display: inline-block;  /* ترتيب النصوص بجانب بعضها */
+}
+
+.my-order-orders p span {
+    color: tomato;  /* استخدام اللون التوميتو */
+    font-size: 1.5rem;
+}
+
+/* تنسيق الزر داخل كل طلب */
+.my-order-orders button {
+    background-color: tomato;  /* استخدام اللون التوميتو */
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;  /* مسافة بين الزر وبقية العناصر */
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.my-order-orders button:hover {
+    background-color: #d74b39;  /* تأثير تغيير اللون عند التمرير */
+}
+
+/* تحسين تنسيق النصوص إذا كانت الشاشات صغيرة */
+@media (max-width: 768px) {
+    .my-order-orders {
+        flex-direction: column;  /* في الشاشات الصغيرة، نجعل العناصر فوق بعضها */
+        align-items: flex-start;  /* محاذاة العناصر لليسار */
+    }
+
+    .my-order-orders img {
+        margin-bottom: 10px;  /* إضافة تباعد أسفل الصورة */
+    }
+
+    .my-order-orders button {
+        margin-top: 10px;  /* إضافة مسافة فوق الزر في الشاشات الصغيرة */
+    }
+} */
